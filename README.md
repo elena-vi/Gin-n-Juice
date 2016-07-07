@@ -24,6 +24,11 @@ Run the test in the browser by opening ```test/SpecRunner.html```
 ## :sweat: Still left to do!
 
 - Find a more effienct way of pulling in templates.
+- Possibly investigate async way of pulling in template (controlled with Promise if need to defer execution)
+- Add to juice: 
+	var pasteurizer = new JuicePasteurizer();
+	var peeler = new JuicePeeler();
+	var sanitizedTemplate = pasteurizer.clean(peeler.find(templateName));
 
 ## :busts_in_silhouette: Collaborators
 [Elena :heart_eyes_cat: Vilimaitė](https://github.com/elena-vi)
