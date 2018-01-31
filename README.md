@@ -14,7 +14,7 @@ route('/path', 'template name', function() {
 
 ### :tangerine: Juice
 The templater, takes your template and interpolates js using the dank syntax:
-``` #{yo= yourVar } ``
+``` #{yo= yourVar } ```
 
 ## :mask: Testing
 Unit testing done using [jasmine](http://jasmine.github.io/), the tests can be found in ```test/spec``` 
